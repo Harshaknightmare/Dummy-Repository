@@ -1,0 +1,71 @@
+.parent{
+	display:flex;
+    flex-direction: row;  ;
+   justify-content: space-around;
+     align-items:  flex-end;
+	background-color:red;
+	margin:10px;
+	height: 100vh;
+
+}
+.item1{
+width: 10vw;
+background: green;
+height:10vh;
+flex: 0 1 auto;
+}
+.item2{
+width: 10vw;
+background:orange;
+height:  10vh;
+flex: 0 1 auto;
+}
+.item3{
+width: 10vw;
+background: blue;
+height:  10vh;
+flex: 0 1 auto;
+
+}
+.item4{
+width: 10vw;
+background: purple;
+height:  10vh;
+flex: 0 1 auto;
+}
+
+@media screen and (max-width: 400px){
+	.parent{
+		display: flex;
+		flex-flow: column-reverse ;
+		
+}
+	.item1{
+
+background: green;
+height:  10vh;
+width: 10vw;
+flex:25vh 10px 50px;
+}
+.item2{
+
+background:orange;
+height:  10vh;
+width: 10vw;
+flex:25vh 10px 50px;
+}
+.item3{
+
+background: blue;
+height: 10vh;
+width: 10vw;
+flex:25vh 10px 50px;
+
+}
+.item4{
+
+background: purple;
+height:  10vh;
+width: 10vw;
+flex:25vh 10px 50px;
+}
